@@ -65,9 +65,9 @@ body {
   --clr-very-light-gray: hsl(0, 0%, 98%);
 
   /* font weight */
-  --ff-light: 200;
-  --ff-regular: 400;
-  --ff-bold: 600;
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-bold: 600;
 }
 
 /* ===== Wrapper ===== */
@@ -91,14 +91,14 @@ body {
 .header__subtitle {
   color: var(--clr-very-dark-blue);
   font-size: 2.4rem;
-  font-weight: var(--ff-light);
+  font-weight: var(--fw-light);
   text-align: center;
 }
 
 .header__title {
   color: var(--clr-very-dark-blue);
   font-size: 2.4rem;
-  font-weight: var(--ff-bold);
+  font-weight: var(--fw-bold);
   text-align: center;
   margin-bottom: 1em;
 }
@@ -108,7 +108,7 @@ body {
   margin-inline: auto;
   color: var(--clr-grayish-blue);
   font-size: 1.5rem;
-  font-weight: var(--ff-regular);
+  font-weight: var(--fw-regular);
   text-align: center;
 }
 
@@ -165,13 +165,13 @@ body {
 .feature__title {
   color: var(--clr-very-dark-blue);
   font-size: 2rem;
-  font-weight: var(--ff-bold);
+  font-weight: var(--fw-bold);
 }
 
 .feature__text {
   color: var(--clr-grayish-blue);
   font-size: 1.25rem;
-  font-weight: var(--ff-regular);
+  font-weight: var(--fw-regular);
   margin-top: 0.4em;
   line-height: 1.8;
   margin-bottom: 2.5em;
